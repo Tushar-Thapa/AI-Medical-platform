@@ -1,0 +1,9 @@
+-r base.txt
+
+torch==2.3.0
+transformers==4.41.0
+spacy==3.7.4
+# After install, run: python -m spacy download en_core_web_sm
+# For biomedical NER: pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_md-0.5.4.tar.gz
+numpy==1.26.4
+pandas==2.2.2
